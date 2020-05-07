@@ -8,12 +8,11 @@ APNG format is supported on most desktop or mobile browsers (MS Edge, Chrome, Fi
 This script has been written as an alternative solution for animating HTMLCanvasElement as far as the excellent module [whammy.js](https://github.com/antimatter15/whammy) needs "image/Webp" format during process which is only supported by Chrome and MS Edge.
 
 For more information on APNG format, see : 
-https://caniuse.com/#feat=apng
-https://developer.mozilla.org/en-US/docs/Mozilla/Tech/APNG
+* https://caniuse.com/#feat=apng
+* https://developer.mozilla.org/en-US/docs/Mozilla/Tech/APNG
 
 
- 
- ##Usage
+ ## Usage
 
 ```javascript
 //create a APNG blob from images (array of canvas) FPS of 60 and with 1 play
@@ -29,5 +28,6 @@ img.src = url
 await img.decode()
 ```
 
-##MIT Licence
+
+## MIT Licence
 
