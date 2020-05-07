@@ -13,6 +13,8 @@ For more information on APNG format, see :
 
 
  ## Usage
+ 
+ Documentation [here](https://raph-of-burgondy.github.io/APNG-Builder/)
 
 ```javascript
 //create a APNG blob from images (array of canvas) FPS of 60 and with 1 play
